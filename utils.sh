@@ -212,7 +212,11 @@ build_tiktok() {
 build_yt() {
 	echo "Building YouTube"
 	reset_template
-	if [[ $YT_PATCHER_ARGS == *"--experimental"* ]]; then
+	if [[ $YT_PATCHER_ARGS == *"--experimental"* && $YT_CUSTOM_VER = true ]]; then
+		echo "-----------------Building Custom Version-----------------"
+		declare -r last_ver=$YT_VERSION # this fetches the version number in the build.conf
+	elif [[ $YT_PATCHER_ARGS == *"--experimental"* ]]; then
+		echo "-----------------Building Beta Version-----------------"
 		declare -r last_ver=$(get_apk_vers "https://www.apkmirror.com/uploads/?appcategory=youtube" | get_largest_ver) # this fetches beta
 	else
 		declare -r last_ver=$(get_patch_last_supported_ver "youtube")
@@ -254,7 +258,11 @@ build_music() {
 	local arch=$1
 	echo "Building YouTube Music (${arch})"
 	reset_template
-	if [[ $MUSIC_PATCHER_ARGS == *"--experimental"* ]]; then
+		if [[ $MUSIC_PATCHER_ARGS == *"--experimental"* && $MUSIC_CUSTOM_VER = true ]]; then
+		echo "-----------------Building Custom Version-----------------"
+		declare -r last_ver=$MUSIC_VERSION # this fetches the version number in the build.conf
+	elif [[ $MUSIC_PATCHER_ARGS == *"--experimental"* ]]; then
+		echo "-----------------Building Beta Version-----------------"
 		declare -r last_ver=$(get_apk_vers "https://www.apkmirror.com/uploads/?appcategory=youtube-music" | get_largest_ver)
 	else
 		declare -r last_ver=$(get_patch_last_supported_ver "music")
@@ -322,7 +330,7 @@ module_prop() {
 name=${2}
 version=v${3}
 versionCode=${NEXT_VER_CODE}
-author=j-hc
+author=gfunmonk
 description=${4}" >"${MODULE_TEMPLATE_DIR}/module.prop"
 
 	if [ "$ENABLE_MAGISK_UPDATE" = true ]; then
