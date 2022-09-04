@@ -260,7 +260,7 @@ build_music() {
 	reset_template
 		if [[ $MUSIC_PATCHER_ARGS == *"--experimental"* && $MUSIC_CUSTOM_VER = true ]]; then
 		echo "-----------------Building Custom Version-----------------"
-		declare -r last_ver=$YTM_VERSION # this fetches the version number in the build.conf
+		declare -r last_ver=$MUSIC_VERSION # this fetches the version number in the build.conf
 	elif [[ $MUSIC_PATCHER_ARGS == *"--experimental"* ]]; then
 		echo "-----------------Building Beta Version-----------------"
 		declare -r last_ver=$(get_apk_vers "https://www.apkmirror.com/uploads/?appcategory=youtube-music" | get_largest_ver)
