@@ -1,8 +1,8 @@
-2022-09-07
+2022-09-08
   
-CLI: revanced-cli-2.10.1-all.jar  
-Integrations: app-release-unsigned-v0.36.5.apk  
-Patches: revanced-patches-2.50.4.jar  
+CLI: revanced-cli-2.10.0-all.jar  
+Integrations: app-release-unsigned-v0.36.6.apk  
+Patches: revanced-patches-2.51.2.jar  
 [Patches Changelog](https://github.com/revanced/revanced-patches/releases/latest)  
 
 YouTube version: 17.36.33  
@@ -20,5 +20,5 @@ downloaded from: [APKMirror - Reddit](https://www.apkmirror.com/apk/redditinc/re
 WarnWetter version: 3.7.2  
 downloaded from: [APKMirror - WarnWetter](https://www.apkmirror.com/apk/deutscher-wetterdienst/warnwetter/warnwetter-3-7-2-release/warnwetter-3-7-2-2-android-apk-download/)  
 
-TikTok version: 26.1.1  
-downloaded from: [APKMirror - TikTok](https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/tik-tok-26-1-1-release/tiktok-26-1-1-3-android-apk-download/)  
+TikTok version: 26.1.3  
+downloaded from: [APKMirror - TikTok](https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/tik-tok-26-1-3-release/tiktok-26-1-3-3-android-apk-download/)  
