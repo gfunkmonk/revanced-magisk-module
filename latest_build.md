@@ -1,12 +1,12 @@
-2022-09-12
+2022-09-13
   
 CLI: revanced-cli-2.11.0-all.jar  
 Integrations: app-release-unsigned-v0.36.6.apk  
 Patches: revanced-patches-2.52.3.jar  
 [Patches Changelog](https://github.com/revanced/revanced-patches/releases/latest)  
 
-YouTube version: 17.36.36  
-downloaded from: [APKMirror - YouTube](https://www.apkmirror.com/apk/google-inc/youtube/youtube-17-36-36-release/youtube-17-36-36-2-android-apk-download/)  
+YouTube version: 17.36.37  
+downloaded from: [APKMirror - YouTube](https://www.apkmirror.com/apk/google-inc/youtube/youtube-17-36-37-release/youtube-17-36-37-2-android-apk-download/)  
 
 YouTube Music (arm64-v8a) version: 5.23.50  
 downloaded from: [APKMirror - YouTube Music arm64-v8a](https://www.apkmirror.com/apk/google-inc/youtube-music/youtube-music-5-23-50-release/youtube-music-5-23-50-android-apk-download/)  
