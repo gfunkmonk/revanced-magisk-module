@@ -1,12 +1,12 @@
-2022-09-16
+2022-09-18
   
 CLI: revanced-cli-2.11.0-all.jar  
 Integrations: app-release-unsigned-v0.37.3.apk  
-Patches: revanced-patches-2.57.0.jar  
+Patches: revanced-patches-2.58.0.jar  
 [Patches Changelog](https://github.com/revanced/revanced-patches/releases/latest)  
 
-YouTube version: 17.37.34  
-downloaded from: [APKMirror - YouTube](https://www.apkmirror.com/apk/google-inc/youtube/youtube-17-37-34-release/youtube-17-37-34-2-android-apk-download/)  
+YouTube version: 17.37.35  
+downloaded from: [APKMirror - YouTube](https://www.apkmirror.com/apk/google-inc/youtube/youtube-17-37-35-release/youtube-17-37-35-2-android-apk-download/)  
 
 YouTube Music (arm64-v8a) version: 5.24.50  
 downloaded from: [APKMirror - YouTube Music arm64-v8a](https://www.apkmirror.com/apk/google-inc/youtube-music/youtube-music-5-24-50-release/youtube-music-5-24-50-android-apk-download/)  
@@ -20,5 +20,5 @@ downloaded from: [APKMirror - Reddit](https://www.apkmirror.com/apk/redditinc/re
 WarnWetter version: 3.7.2  
 downloaded from: [APKMirror - WarnWetter](https://www.apkmirror.com/apk/deutscher-wetterdienst/warnwetter/warnwetter-3-7-2-release/warnwetter-3-7-2-2-android-apk-download/)  
 
-TikTok version: 26.1.3  
-downloaded from: [APKMirror - TikTok](https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/tik-tok-26-1-3-release/tiktok-26-1-3-3-android-apk-download/)  
+TikTok version: 26.2.3  
+downloaded from: [APKMirror - TikTok](https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok/tik-tok-26-2-3-release/tiktok-26-2-3-3-android-apk-download/)  
