@@ -54,8 +54,8 @@ extract_deb() {
 get_xdelta() {
 	extract_deb "${MODULE_TEMPLATE_DIR}/bin/arm64/xdelta" "https://grimler.se/termux/termux-main/pool/main/x/xdelta3/xdelta3_3.1.0-1_aarch64.deb" "./data/data/com.termux/files/usr/bin/xdelta3"
 	extract_deb "${MODULE_TEMPLATE_DIR}/bin/arm/xdelta" "https://grimler.se/termux/termux-main/pool/main/x/xdelta3/xdelta3_3.1.0-1_arm.deb" "./data/data/com.termux/files/usr/bin/xdelta3"
-	extract_deb "${MODULE_TEMPLATE_DIR}/lib/arm64/" "https://grimler.se/termux/termux-main/pool/main/libl/liblzma/liblzma_5.2.5-1_aarch64.deb" "./data/data/com.termux/files/usr/lib/*so*"
-	extract_deb "${MODULE_TEMPLATE_DIR}/lib/arm/" "https://grimler.se/termux/termux-main/pool/main/libl/liblzma/liblzma_5.2.5-1_arm.deb" "./data/data/com.termux/files/usr/lib/*so*"
+	extract_deb "${MODULE_TEMPLATE_DIR}/lib/arm64/" "https://grimler.se/termux/termux-main/pool/main/libl/liblzma/liblzma_5.4.4_aarch64.deb" "./data/data/com.termux/files/usr/lib/*so*"
+	extract_deb "${MODULE_TEMPLATE_DIR}/lib/arm/" "https://grimler.se/termux/termux-main/pool/main/libl/liblzma/liblzma_5.4.4_arm.deb" "./data/data/com.termux/files/usr/lib/*so*"
 }
 
 get_cmpr() {
